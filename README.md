@@ -1,6 +1,8 @@
 Challenge Summary
+
 credit_risk_resampling.ipynb
-the imbalanced-learn library is used to resample the data in order to build and evaluate logistic regression classifiers.
+
+The imbalanced-learn library is used to resample the data in order to build and evaluate logistic regression classifiers.
 
 Oversample the data using the RandomOverSampler and SMOTE algorithms.
 Undersample the data using the cluster centroids algorithm.
@@ -11,7 +13,7 @@ Train a logistic regression classifier (from Scikit-learn) using the resampled d
 Calculate the balanced accuracy score using balanced_accuracy_score from sklearn.metrics.
 Generate a confusion_matrix.
 Print the classification report (classification_report_imbalanced from imblearn.metrics).
-We wrote a brief summary and analysis of the models’ performance. In the analysis, we described the precision and recall scores, as well as the balanced accuracy score. Also included is a final recommendation on the model to use, if any. If we did not recommend any of the models, we justified our reasoning.
+WI wrote a brief summary in each ipynb and analysis of the models’ performance. I describe the precision and recall scores, as well as the balanced accuracy score. All justifications for model use or no use are given.
 
 Extension
 credit_risk_ensemble.ipynb
@@ -22,4 +24,4 @@ Calculate the balanced accuracy score.
 Generate a confusion matrix.
 Print the classification report (classification_report_imbalanced from imblearn.metrics).
 For the BalancedRandomForestClassifier, print the feature importance, sorted in descending order (from most to least important feature), along with the feature score.
-Lastly, we wrote a brief summary and analysis of the models’ performance, described the precision and recall scores, as well as the balanced accuracy score. Additionally, a final recommendation on the model to use, if any. If we did not recommend any of the models, we justified our reasoning.
+Lastly, I wrote a brief summary in each ipynb and analysis of the models’ performance, described the precision and recall scores, as well as the balanced accuracy score. All justifications for model use or no use are given.
